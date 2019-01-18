@@ -9,6 +9,7 @@ namespace funda
         [TestMethod]
         public void test()
         {
+            string teste = string.Empty;
         }
     }
 }
