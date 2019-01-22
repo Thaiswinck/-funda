@@ -659,26 +659,26 @@ this.FeatureBackground();
         public virtual void ForRent_FindPlacesBetweenOtherValues()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("For Rent - Find places between other values", null, ((string[])(null)));
-#line 219
+#line 218
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 7
 this.FeatureBackground();
-#line 220
+#line 219
  testRunner.Given("I select the navigation item For Rent", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 221
+#line 220
  testRunner.And("I fill the field Location with value \'<Place>\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 222
+#line 221
  testRunner.Then("I select the field From with Other value", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line 223
+#line 222
  testRunner.And("I fill the field From with the value \'<FromOtherValue>\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 224
+#line 223
  testRunner.And("I select the field To with Other value", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 225
+#line 224
  testRunner.And("I fill the field To with the value \'<ToOtherValue>\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 226
+#line 225
  testRunner.When("I click on the button Search", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 227
+#line 226
  testRunner.Then("I should go to the page \'\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
@@ -689,7 +689,7 @@ this.FeatureBackground();
                         "Amsterdam",
                         "20",
                         "1000000"});
-#line 228
+#line 227
  testRunner.And("I should see the same amount of results as DB <FromOtherValue> <ToOtherValue> <Pl" +
                     "ace>", ((string)(null)), table8, "And ");
 #line hidden

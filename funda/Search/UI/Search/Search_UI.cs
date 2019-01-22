@@ -29,16 +29,18 @@ namespace Search.UI
 
         public static readonly By DDL_from = By.XPath("//label[text() = 'From']/ancestor-or-self::div[@class = 'range-filter-selector__preset']/div/select");
 
-       
         public static readonly By DDL_from_Selected = By.XPath("//label[text() = 'From']/ancestor-or-self::div[@class = 'range-filter-selector__preset']/div/select/option[@selected = '']");
 
-         public static readonly By DDL_from_Options = By.XPath("//label[text() = 'From']/ancestor-or-self::div[@class = 'range-filter-selector__preset']/div/select/option");
+        public static readonly By DDL_from_Options = By.XPath("//label[text() = 'From']/ancestor-or-self::div[@class = 'range-filter-selector__preset']/div/select/option");
 
         public static readonly By DDL_to = By.XPath("//label[text() = 'To']/ancestor-or-self::div[@class = 'range-filter-selector__preset']/div/select");
 
         public static readonly By DDL_To_Selected = By.XPath("//label[text() = 'To']/ancestor-or-self::div[@class = 'range-filter-selector__preset']/div/select/option[@selected = '']");
 
-         public static readonly By DDL_to_Options = By.XPath("//label[text() = 'To']/ancestor-or-self::div[@class = 'range-filter-selector__preset']/div/select/option");
+        public static readonly By DDL_to_Options = By.XPath("//label[text() = 'To']/ancestor-or-self::div[@class = 'range-filter-selector__preset']/div/select/option");
+
+        public static readonly By DDL_Country = By.Id("Land");
+
 
         /*Button*/
         public static readonly By BTN_search = By.Id("//button[text() = 'Search']");

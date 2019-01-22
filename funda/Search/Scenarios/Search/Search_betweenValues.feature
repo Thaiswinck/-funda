@@ -209,7 +209,6 @@ Scenario: For Rent - Find places between two values
 	When I click on the button Search
 	Then I should go to the page ''
 	And I should see the same amount of results as DB <From> <To> <Place>
-
 	| From | To    | Place     |
 	| 50   | 100      | Amsterdam |
 	| 0    | No limit | Amsterdam |
@@ -226,6 +225,6 @@ Scenario: For Rent - Find places between other values
 	When I click on the button Search
 	Then I should go to the page ''
 	And I should see the same amount of results as DB <FromOtherValue> <ToOtherValue> <Place>
-	| Place     | FromOtherValue | ToOtherValue |
+	| Place     | FromOtherValue | ToOtherValue    |
 	| Amsterdam | 20             | 1000000         |
 

@@ -22,18 +22,7 @@ namespace Search
             }
         }
 
-        public static IWebElement GetElement(this IWebElement driver, By by)
-        {
-            try
-            {
-                return driver.FindElement(by);
-            }
-            catch (NoSuchElementException)
-            {
-                return null;
-            }
-        }
-
+    
         public static ReadOnlyCollection<IWebElement> GetElements(this IWebDriver driver, By by)
         {
             try

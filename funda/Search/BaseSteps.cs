@@ -45,17 +45,16 @@ namespace Search
             }
         }
 
-        
-
+      
         [BeforeScenario()]
-        public static void LimparCookies()
+        public static void CleanCookies()
         {
 
             Driver?.Manage().Cookies.DeleteAllCookies();
         }
 
         [BeforeScenario()]
-        public static void LimparLocalStorage()
+        public static void CleanLocalStorage()
         {
             try
             {
@@ -68,7 +67,7 @@ namespace Search
 
 
         [BeforeScenario("maximize")]
-        public static void Maximixa()
+        public static void Maximize()
         {
             InnerDriver.Manage().Window.Maximize();
         }

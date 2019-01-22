@@ -185,6 +185,28 @@ namespace Search
             }
         }
 
+        [Then(@"I see a dropdown field to select the ray")]
+        public void ThenISeeADropdownFieldToSelectTheRay()
+        {
+            var ray = WaitElement(Search_UI.DDL_ray);
+            if (ray == null)
+            {
+                Assert.Fail("Ray element not found");
+            }
+        }
+
+        [Then(@"I do not see a dropdown field to select the Country")]
+        public void ThenIDoNotSeeADropdownFieldToSelectTheCountry()
+        {
+            var country = WaitElement(Search_UI.DDL_Country);
+            if (country != null)
+            {
+                Assert.Fail("Coutry element found");
+            }
+        }
+
+
+
 
 
 
